@@ -1,6 +1,6 @@
 # Projeto completo com nginx + react + node + postgres
 
-## Como executar o build
+## Como executar o buildd
 
 docker-compose up --build
 
