@@ -10,6 +10,9 @@ services:
 
   banco:
     image: postgres
+    environment:
+      POSTGRES_DB: "bucketflix"
+      POSTGRES_HOST_AUTH_METHOD: "trust"
     container_name: banco
     ports:
       - 2345:5432
